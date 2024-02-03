@@ -21,6 +21,14 @@
 
 // N 3
 
+// function sigin (n){
+//    if(n>0){
+//       console.log(1);
+//    }else{
+//       console.log(-1);
+//    }
+// }
+// console.log(sigin(5));
 
 
 // N 4
@@ -115,6 +123,22 @@
 // }
 // console.log(sortABC(1,25,89));
 
+// N 15
+
+// function isPalindrom(num) {
+//    var numStr = num.toString();
+//    for (var i = 0; i < numStr.length / 2; i++) {
+//      if (numStr[i] !== numStr[numStr.length - 1 - i]) {
+//        return false;
+//      }
+//    }
+ 
+//    return true;
+//  }
+//  var testNum = 1221;
+//  var result = isPalindrom(testNum);
+//  console.log(result);
+ 
 
 
 // N 16
@@ -136,3 +160,33 @@
 
 
 // console.log(sumoddeven(10));
+
+// N 17
+
+// s=0
+// function getSum(n){
+//    for (let i=2; i<=n;i++){
+//       if (i%3==0){
+//          s+=i
+//          console.log(i);
+//       }else{
+//          console.log("3 ga bo'linadi");
+//       }
+//    }
+// }
+// console.log(getSum(100));
+
+// N 22
+
+// function isLeapYear(year) {
+//    if ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)) {
+//      return true;
+//    } else {
+//      return false;
+//    }
+//  }
+//  var testYear = 2024;
+//  var result = isLeapYear(testYear);
+//  console.log(result);
+ 
+

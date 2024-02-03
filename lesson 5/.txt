@@ -1,0 +1,33 @@
+
+
+JavaScript dasturlash tilida ham boshqa dasturlash tillari singari funksiya mavjud va vazifalari ham o'xshash hisoblanadi. Funksiya uchun qisqacha tarif quyidagicha keltirsak bo'ladi. 
+
+Funksiya - ma'lum bir vazifa bajarishga mujjallangan bo'lib dastur kodining bir qismi hisoblanib uni qayta-qayta foydalanish imkoniyati bo'lib kod bo'lagidir.
+Masalan: a va b ning ko'paytmasini qaytaradigan dastur kodi.
+
+function myFunction(a, b) {
+  return a * b;   // a va b ni ko'paytmasi qaytariladi
+} 
+JavaScript Funksiya sintaksisi
+Funksiya funksiya nomi va () qavs ichida parametrlar qabul qiladi. Funksiya nomi harflar, sonlar, pastgi chiziq va dollor belgilari bo'lishi mumkin. har bir parametr "," vergul bilan ajratilib ko'rsatiladi. Funksiya tanasi figuraviy qavs ichida yoziladi.
+
+function name(parameter1, parameter2, parameter3) {
+  //  funksiya tanasi
+}
+Funktsiyani chaqirish
+Funksiya tarkibidagi kod faqat chaqirilganda (murojaat) qilingandagina ishlaydi. 
+
+Bir bir tugmas asosida chaqirish
+JavaScipt kodi tarkibida chaqirib utish
+Avtomatik chaqirishni amalga oshirish
+Funktsiyani qaytarish
+Funksiya return belgisigacha ishlaydi yoki funksiya tanasi oxirigacha bajariladi. Qiymat qaytarish uchun return kalit so'zidan foydalaniladi. 
+
+let x = myFunction(4, 3);   
+
+function myFunction(a, b) {
+  return a * b;            
+}
+12
+Nima uchun funksiyalar?
+Siz yaratgan funksiyadan qayta foydalanish va JavaScript kodining tarkibidagi istalgan joyda o'zingiz yaratgan funksiyaga murojaat qilishingiz mumkin. Bir marta yarating ko'p marta foydalaning.
